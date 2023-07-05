@@ -12,7 +12,7 @@ on:
 jobs:
 
   build:
-    runs-on: [macOS, ARM64]
+    runs-on: [macos-latest, ARM64]
     steps:
     - name: Prefix
       run: |
